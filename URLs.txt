@@ -1,0 +1,59 @@
+Multithreading:
+https://forum.qt.io/topic/53557/sharing-data-between-threads-and-qml/5
+https://doc.qt.io/qt-5/thread-basics.html
+https://doc.qt.io/qt-5/threads-technologies.html
+https://www.toptal.com/qt/qt-multithreading-c-plus-plus
+https://www.kdab.com/the-eight-rules-of-multithreaded-qt/
+https://www.slideshare.net/ICSinc/lockless-producer-consumer-threads-asynchronous-communications-made-easy
+https://wiki.qt.io/QThreads_general_usage
+https://www.slideshare.net/ICSinc/qthreads-are-you-using-them-wrong
+https://stackoverflow.com/questions/12031020/calling-a-qobject-function-from-qml-across-threads?noredirect=1&lq=1
+https://www.kdab.com/wp-content/uploads/stories/multithreading-with-qt.pdf
+https://stackoverflow.com/questions/33490185/qml-c-property-bindings-with-multiple-threads
+https://stackoverflow.com/questions/47790210/direct-interaction-between-qt-qml-frontend-and-c-backend-model-in-another-thre?noredirect=1&lq=1
+https://www.toptal.com/qt/qt-multithreading-c-plus-plus
+https://fiona.dmcs.pl/mjp2/qt-tutorial/docs/qt/threads.html
+http://www.cplusplus.com/reference/atomic/atomic/operator=/
+
+Synchronization mechanism:
+1) create a data class that protects its data by using QMutex
+2) create an instance of that data class
+3) pass the data to as many threads as you'd like
+4) start the threads
+
+QMap:
+https://stackoverflow.com/questions/9476045/can-two-threads-read-from-the-same-qlist-at-the-same-time
+https://thesmithfam.org/blog/2011/02/12/when-faster-is-actually-slower/
+https://stackoverflow.com/questions/38099176/qt-questions-about-qmap-thread-safety
+https://web.mit.edu/~firebird/arch/sun4x_59/doc/html/qmap.html
+
+Qt-QML interaction:
+https://blog.felgo.com/cross-platform-app-development/how-to-expose-a-qt-cpp-class-with-signals-and-slots-to-qml
+https://www.slideshare.net/ICSinc/best-practices-in-qt-quickqml-part-iii
+https://stackoverflow.com/questions/8834147/c-signal-to-qml-slot-in-qt
+https://doc-snapshots.qt.io/qt5-5.11/qtqml-cppintegration-topic.html
+https://doc-snapshots.qt.io/qt5-5.11/qtquick-bestpractices.html#interacting-with-qml-from-c
+https://ruedigergad.com/2011/11/13/exchange-data-and-objects-between-c-and-qml-and-vice-versa/
+https://evileg.com/en/post/569/
+https://link.springer.com/chapter/10.1007/978-1-4302-6158-2_3
+https://github.com/Furkanzmc/QML-Coding-Guide
+https://felgo.com/doc/qt/qtqml-cppintegration-exposecppattributes/
+https://doc.qt.io/qt-5/qtqml-cppintegration-data.html#data-ownership
+https://embeddeduse.com/2018/04/02/qml-engine-deletes-c-objects-still-in-use/
+https://embeddeduse.com/2013/08/10/practical-qml-exposing-qobject-subclasses-to-qml/
+https://doc.qt.io/qt-5/qtqml-syntax-propertybinding.html
+http://www.mardy.it/blog/2016/11/qml-trick-force-re-evaluation-of.html
+https://bugreports.qt.io/browse/QTBUG-43230
+
+Charts:
+https://github.com/MichaelVoelkel/ChartJs2QML
+https://www.chartjs.org/docs/2.9.4/
+https://stackoverflow.com/questions/43118452/chart-js-time-scale-not-showing-data/43123055
+https://stackoverflow.com/questions/59734992/using-epoch-as-time-series-on-x-axis-in-react-chartjs-2-not-showing-correct-date
+https://codepen.io/jordanwillis/pen/JWexGp
+
+Miscellaneous:
+https://github.com/eddyyanto/InactivityTimer
+https://embeddeduse.com/2016/04/01/remote-support-vnc-harvester-terminal/
+https://stackoverflow.com/questions/36128342/how-to-handle-large-qt-resource-files-on-a-system-with-a-very-slow-storage
+
